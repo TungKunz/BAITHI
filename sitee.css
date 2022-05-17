@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+
+}
+:root {
+    --container-full-width:100%;
+    --container-width: 1150px;
+}
+.containerr{
+    width:var(--container-full-width);
+    background-color: #101215;
+}
+.containerrr{
+    width:var(--container-full-width);
+    background-color: #FECC7A;
+   
+}
+.container {
+    width: var(--container-width);
+    margin:auto;
+}
+.header{
+    display: flex;
+
+}
+
+.box{
+    width:var(--container-full-width);
+    background-color: #101215;
+}
+.header ul li{
+    list-style: none;
+
+}
+.top{
+    width: var(--container-full-width);
+    height: 100px;
+    background-color: #101215;
+
+}
+.header ul li a{
+    text-decoration: none;
+    color: #D2B48C;
+
+}
+.header li {
+    display: inline-table;        
+}
+.header ul{
+    display: flex;
+    width: 900px;
+    height: 100px;
+    background-color: #101215;
+    align-items: center;
+    text-align: center;
+}
+
+.header li+li {
+    margin-left: 20px;
+}
+.header ul li a{
+    color:#D2B48C;
+    font-size: 1.5em;
+    padding-left: 25px;
+}
+.imagesbody{
+    width: 1150px;
+    height: 450px;
+    background-image: url("images/msi.jpg");
+    background-size: cover;
+    background-size: contain;
+    opacity: 0.7;
+}
+.center{
+    width: 900px;
+    height: 300px;
+    position: absolute;
+    padding-top: 75px;
+    padding-left: 130px;
+    top:55px;
+}
+.boxthongtin-all{
+    display: flex;
+}
+.boxthongtin-all ul li{
+    list-style: none;
+
+}
+.boxthongtin-all ul li a{
+    text-decoration: none;
+}
+.boxthongtin-all{
+    column-gap: 110px;
+    padding-top: 20px;
+}
+.tieude ul li a{
+    font-size: 1.4em;
+    font-weight: 900;
+    color: black;
+}
+.noidung ul li a{
+    color: black;
+    font-size: 1.1em;
+}
+.ngay ul li a{
+    color: black;
+}
+.thongtin{
+    padding-top: 10px;;
+}
+.boxthongtin-bottom{
+    display: flex;
+}
+.boxthongtin-bottom ul li{
+    list-style: none;
+
+}
+.boxthongtin-bottom ul li a{
+    text-decoration: none;
+}
+.boxthongtin-bottom{
+    column-gap: 110px;
+    padding-top: 20px;
+}
+.boxthongtin-bottom-1{
+    height: 380px;
+    width: 310px;
+
+}
+.boxthongtin{
+    height: 380px;
+    width: 310px;
+
+}
+
+.end{
+    width: 100%;
+    height: 100px;
+    background-color: #101215;
+    color: white;
+    text-align: center; 
+    padding-top: 25px;
+    line-height: 25px;
+}
